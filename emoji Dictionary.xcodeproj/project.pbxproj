@@ -12,6 +12,7 @@
 		D0B970C81F0F14B700696CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B970C61F0F14B700696CA8 /* Main.storyboard */; };
 		D0B970CA1F0F14B800696CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B970C91F0F14B800696CA8 /* Assets.xcassets */; };
 		D0B970CD1F0F14B800696CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B970CB1F0F14B800696CA8 /* LaunchScreen.storyboard */; };
+		D0B970D51F0F2DAF00696CA8 /* definitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B970D41F0F2DAF00696CA8 /* definitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D0B970C91F0F14B800696CA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B970CC1F0F14B800696CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B970CE1F0F14B800696CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B970D41F0F2DAF00696CA8 /* definitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = definitionViewController.swift; path = ../definitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D0B970C21F0F14B700696CA8 /* AppDelegate.swift */,
 				D0B970C41F0F14B700696CA8 /* ViewController.swift */,
+				D0B970D41F0F2DAF00696CA8 /* definitionViewController.swift */,
 				D0B970C61F0F14B700696CA8 /* Main.storyboard */,
 				D0B970C91F0F14B800696CA8 /* Assets.xcassets */,
 				D0B970CB1F0F14B800696CA8 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B970D51F0F2DAF00696CA8 /* definitionViewController.swift in Sources */,
 				D0B970C51F0F14B700696CA8 /* ViewController.swift in Sources */,
 				D0B970C31F0F14B700696CA8 /* AppDelegate.swift in Sources */,
 			);
